@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: Serpent
+file_extensions:
+  - se
+scope: source.serpent
+contexts:
+  main:
+    - match: ""
+      push: Packages/Python/Python.sublime-syntax
